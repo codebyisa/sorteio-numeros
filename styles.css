@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Nova+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Nova Round", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: -webkit-linear-gradient(top, #ffffff, #2f4f4f);
+    background: -moz-linear-gradient(top, #ffffff, #2f4f4f);
+    background: -ms-linear-gradient(top, #ffffff, #2f4f4f);
+    background: -o-linear-gradient(top, #ffffff, #2f4f4f);
+    background: linear-gradient(to bottom, #ffffff, #2f4f4f);
+    padding-top: 100px;
+}
+
+main {
+    text-align: center;
+    color:#030303
+}
+
+img {
+    width: 200px;
+}
+
+p {
+    color: #000000;
+    margin: 50px 0 10px;
+    font-weight: 400;
+    font-family: "Nova Round", sans-serif;
+    font-size: 22px;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    color: #2f4f4f;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding-left: 10px;
+    background: #e5e5e5;
+    border: 1px solid #2f4f4f;
+    cursor: pointer ;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+button {
+    width: 200px;
+    height: 35px;
+    background-color: #2f4f4f ;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: 800ms ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #afc1d1;
+    color: #2f4f4f;
+    border: 1px solid #afc1d1;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
